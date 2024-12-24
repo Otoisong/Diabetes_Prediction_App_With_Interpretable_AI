@@ -6,6 +6,6 @@ joblib==1.2.0
 scikit-learn==1.5.2
 lightgbm==4.5.0
 shap==0.46.0
-ctgan==0.10.2
+ctgan
 streamlit==1.37.1
 lime==0.2.0.1
