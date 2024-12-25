@@ -43,14 +43,14 @@ with st.sidebar:
         },
     )
 
-    import os
-    import streamlit as st
+    #import os
+    #import streamlit as st
 
-    st.write("Current Directory:", os.getcwd())
-    st.write("Files in Current Directory:", os.listdir())
+    #st.write("Current Directory:", os.getcwd())
+    #st.write("Files in Current Directory:", os.listdir())
 
     
-    st.image("Diabetes_img.JPG", use_container_width =False, width=120)
+    st.image("lightgbm_app/Diabetes_img.JPG", use_container_width =False, width=120)
 
 # Load the trained LightGBM model
 model = joblib.load('lightgbm_Saved_model.pkl')
