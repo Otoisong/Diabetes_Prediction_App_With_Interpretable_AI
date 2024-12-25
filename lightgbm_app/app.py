@@ -56,7 +56,7 @@ with st.sidebar:
 model = joblib.load('lightgbm_Saved_model.pkl')
 
 # Load the dataset used for training
-training_data = pd.read_csv('diabetes_prediction_dataset.csv')
+training_data = pd.read_csv('lightgbm_app/diabetes_prediction_dataset.csv')
 
 # Encode categorical columns
 label_encoder = LabelEncoder()
@@ -83,7 +83,7 @@ if selected == "Home":
         st.title("Diabetes Prediction App")
 
     with col2:
-        st.image("Diabetes_Hrt.Jpg", use_column_width=False, width = 60)
+        st.image("lightgbm_app/Diabetes_Hrt.Jpg", use_column_width=False, width = 60)
 
     # Main introduction content
     st.markdown("""
@@ -123,7 +123,7 @@ if selected == "Home":
     """)
 
     # Bio and Image Section
-    st.image("Otobong.Jpg", caption="About the Author: Otobong Edemenang", use_column_width=False, width=120)
+    st.image("lightgbm_app/Otobong.Jpg", caption="About the Author: Otobong Edemenang", use_column_width=False, width=120)
     
     st.markdown(
         """
