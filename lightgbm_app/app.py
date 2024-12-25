@@ -42,7 +42,7 @@ with st.sidebar:
             "nav-link-selected": {"background-color": "#4682B4"},  # Darker blue for active item
         },
     )
-    #st.image("Diabetes_img.Jpg", use_column_width=False, width=120)
+    st.image("Diabetes_img.Jpg", use_column_width=False, width=120)
 
 # Load the trained LightGBM model
 model = joblib.load('./lightgbm_Saved_model.pkl')
