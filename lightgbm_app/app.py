@@ -45,7 +45,7 @@ with st.sidebar:
     st.image("Diabetes_img.Jpg", use_column_width=False, width=120)
 
 # Load the trained LightGBM model
-model = joblib.load('./lightgbm_Saved_model.pkl')
+model = joblib.load('lightgbm_Saved_model.pkl')
 
 # Load the dataset used for training
 training_data = pd.read_csv('diabetes_prediction_dataset.csv')
