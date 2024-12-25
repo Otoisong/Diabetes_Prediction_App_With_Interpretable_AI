@@ -20,7 +20,7 @@ LightGBM: A gradient boosting framework for fast, distributed training.
 CTGAN: Conditional Generative Adversarial Network used for balancing the dataset.
 SHAP: SHapley Additive exPlanations for local interpretability.
 LIME: Local Interpretable Model-Agnostic Explanations for interpreting model predictions.
-Flask/Django: (Specify which framework you used for the web app).
+Streamlit Cloud: For App deployment
 Python: Programming language used for model building and deployment.
 ## Model Development
 Data Preprocessing: The dataset includes clinical, demographic, and lifestyle data. It is preprocessed to handle missing values, normalize numerical features, and encode categorical variables.
