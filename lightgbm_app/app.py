@@ -83,7 +83,7 @@ if selected == "Home":
         st.title("Diabetes Prediction App")
 
     with col2:
-        st.image("lightgbm_app/Diabetes_Hrt.Jpg", use_container_width =False, width = 60)
+        st.image("lightgbm_app/Diabetes_Hrt.jpg", use_container_width =False, width = 60)
 
     # Main introduction content
     st.markdown("""
