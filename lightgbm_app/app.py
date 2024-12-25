@@ -123,7 +123,7 @@ if selected == "Home":
     """)
 
     # Bio and Image Section
-    st.image("lightgbm_app/Otobong.Jpg", caption="About the Author: Otobong Edemenang", use_container_width =False, width=120)
+    st.image("lightgbm_app/Otobong.jpg", caption="About the Author: Otobong Edemenang", use_container_width =False, width=120)
     
     st.markdown(
         """
