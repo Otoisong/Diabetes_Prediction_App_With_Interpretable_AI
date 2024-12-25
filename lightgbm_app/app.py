@@ -42,6 +42,14 @@ with st.sidebar:
             "nav-link-selected": {"background-color": "#4682B4"},  # Darker blue for active item
         },
     )
+
+    import os
+    import streamlit as st
+
+    st.write("Current Directory:", os.getcwd())
+    st.write("Files in Current Directory:", os.listdir())
+
+    
     st.image("Diabetes_img.JPG", use_container_width =False, width=120)
 
 # Load the trained LightGBM model
